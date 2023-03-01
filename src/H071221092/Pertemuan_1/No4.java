@@ -1,3 +1,6 @@
+
+package H071221092.Pertemuan_1;
+
 import java.util.Scanner;
 
 public class No4 {
