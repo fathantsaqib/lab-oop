@@ -1,3 +1,5 @@
+package H071221088.Pertemuan_1;
+
 import java.util.Scanner;
 public class No7 {
     static String[] serangga = {"Tawon", "Nyamuk", "Lalat", "Ngengat", "Rayap", "Lipan", "Ulat", "Belatung", "Laron",
