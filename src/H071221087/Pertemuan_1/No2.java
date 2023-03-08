@@ -1,6 +1,8 @@
+package H071221087.Pertemuan_1;
+
 import java.util.Scanner;                                               
 
-public class Praktikum2 {
+public class No2 {
     
     public static void main(String[] args) {
         try{ 

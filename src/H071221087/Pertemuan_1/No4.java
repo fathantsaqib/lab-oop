@@ -1,6 +1,8 @@
+package H071221087.Pertemuan_1;
+
 import java.util.Scanner;
 
-public class Praktikum4 {
+public class No4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -9,8 +11,8 @@ public class Praktikum4 {
         String hasil = kapitalKata(nama);
         System.out.println(hasil);
         sc.close();
-    } 
-    
+    }
+
     public static String kapitalKata(String namaString) {
         String[] kata = namaString.split(" ");
         for (int i = 0; i < kata.length; i++) {
@@ -22,9 +24,9 @@ public class Praktikum4 {
                 kata[i] = kata[i].toUpperCase();
             }
         }
-        
+
         String outputString = String.join(" ", kata);
 
         return outputString;
-    } 
+    }
 }
