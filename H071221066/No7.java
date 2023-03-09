@@ -1,9 +1,11 @@
 package TugasPraktikum.Pertemuan1;
 
-import java.util.Scanner;                                                   //import scanner
+//import scanner
+import java.util.Scanner;                                                   
 
 public class No7 {
     public static void main(String[] args){
+//membuat scanner baru dan meminta inputan 
         Scanner inp = new Scanner(System.in);    
         System.out.print("input bunga : ");
         String flower = inp.nextLine();                                      
@@ -12,16 +14,20 @@ public class No7 {
 
         inp.close();
     }
-    public static int findIndex(String teks) {                                  //membuat method findIndex u/ mengecek indeks teks yang diinput
-        String bunga[] = {"Mawar", "melati", "kamboja", "matahari", "anggrek"};     //membuat array dengan tipe string
+//membuat method findIndex u/ mengecek indeks teks yang diinput
+    public static int findIndex(String teks) {    
+//membuat array dengan tipe string                              
+        String bunga[] = {"Mawar", "melati", "kamboja", "matahari", "anggrek"};     
         int indeks= 0;
+//membuat perulangan kemudian mengembalikan indeks 
         for (String b : bunga) {
             if (b.equalsIgnoreCase(teks)){
                 return indeks;
             }
             indeks++;
         }
-        return -1;                                                               //mengembalikan -1 jika inputan tidak terdaftar dalam array 
+//mengembalikan -1 jika inputan tidak terdaftar dalam array 
+        return -1;                                                               
     } 
 }
 
