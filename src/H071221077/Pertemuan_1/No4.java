@@ -1,3 +1,5 @@
+package H071221077.Pertemuan_1;
+
 import java.util.Scanner;
 
 public class No4 {
@@ -14,15 +16,15 @@ public class No4 {
         // ["halo", "apa", "kabar", "semua"]
         for (String kata : inp.split(" ")) {
 
-            //kata.substring(0, 1) untuk mengambil huruf pertama pada kata
-            //toUpperCase() untuk mengubah character pertama jadi huruf kapital
+            // kata.substring(0, 1) untuk mengambil huruf pertama pada kata
+            // toUpperCase() untuk mengubah character pertama jadi huruf kapital
             // kata.substring(1), mengambil character kedua sampai terakhir pada kata
             String kataBaru = kata.toUpperCase().charAt(0) + kata.substring(1).toLowerCase();
 
-            //kalimatBaru.append(kataBaru).append(" ");
+            // kalimatBaru.append(kataBaru).append(" ");
             kalimatBaru += kataBaru + " ";
         }
-         System.out.println(kalimatBaru);
-         judul.close();
+        System.out.println(kalimatBaru);
+        judul.close();
     }
 }
