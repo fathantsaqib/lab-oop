@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class no1 {
+public class No1 {
     public static void main(String[] args) {
         String nim;
         Scanner keyboard = new Scanner(System.in);      // untuk menginput

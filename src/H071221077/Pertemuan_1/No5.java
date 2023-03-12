@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class no5 {
+public class No5 {
     public static void main(String[] args) {
         HashMap<String, String> bulan = new HashMap<>();
         bulan.put("01", "Januari");
@@ -21,10 +21,10 @@ public class no5 {
         System.out.print("Masukkan tanggal : ");
 
         String tanggal = input.next();
-        String day = tanggal.substring(0, 2);       //substring untuk mengambil bbrp karakter dlm str (index)
+        String day = tanggal.substring(0, 2); // substring untuk mengambil bbrp karakter dlm str (index)
         System.out.print(Integer.parseInt(day) + " ");
         String bln = tanggal.substring(3, 5);
-        // int month = Integer.parseInt(bl);        //parseInt untuk mengubah str menjadi int
+        // int month = Integer.parseInt(bl); //parseInt untuk mengubah str menjadi int
         System.out.print("" + bulan.get(bln) + " ");
         String thn = tanggal.substring(6, 8);
         int year = Integer.parseInt(thn);

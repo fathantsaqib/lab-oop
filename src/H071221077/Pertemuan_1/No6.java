@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class no6 {
+public class No6 {
     public static void main(String[] args) {
-        Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
 
-        try{
+        try {
             System.out.println("Menghitung Luas Lingkaran ");
             System.out.println("Masukkan Jari-jari Lingkaran");
             double r = input.nextDouble();
 
-            //String luas = String.format ("%.2f" , (Math.PI * r *r)) ;  //angka blkg koma 2
-            System.out.printf("Luas Lingkaran = %.2f\n" , (Math.PI * r *r));
-            //System.out.println("Luas Lingkaran = " + luas);
+            // String luas = String.format ("%.2f" , (Math.PI * r *r)) ; //angka blkg koma 2
+            System.out.printf("Luas Lingkaran = %.2f\n", (Math.PI * r * r));
+            // System.out.println("Luas Lingkaran = " + luas);
 
         } catch (Exception e) {
             System.out.println("Input Harus Berupa Angka");
@@ -19,5 +19,5 @@ public class no6 {
         }
         input.close();
     }
-    
+
 }
