@@ -31,7 +31,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   ```
   Note:
   Pesan commit yang dibuat diharapkan sesuai dengan hal yang dilakukan. Seperti "menambah tugas praktikum ..." atau "memperbaiki type di file ..."
-- Setiap file wajib menggunakan package, denga format misal nim anda H071191049 dan Tugasnya merupakan tugas Pertemuan_02, maka packagenya
+- Setiap file wajib menggunakan package, dengan format misal nim anda H071191049 dan Tugasnya merupakan tugas Pertemuan_02, maka packagenya
   ```package H071191049.Pertemuan02```
 - Setelah perintah tersebut berhasil, silahkan membuka repository hasil fork kalian di github dan lakukan pull request ke repository ini. 
 - Apabila terdapat kesulitan, silahkan menghubungi asistennya
