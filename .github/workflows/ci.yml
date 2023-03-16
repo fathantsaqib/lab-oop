@@ -1,8 +1,8 @@
-name: Java CI
+name: OOP CI
 
 on:
   pull_request:
-    branches:
+    branches: 
       - main
 
 jobs:
@@ -10,9 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Build and Test
-      run: chmod +x build.sh && ./build.sh
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 17
 
+      - name: Run build script
+        run: |
+          cd src
+          find . -name "*.java" > sources.txt
+          javac @sources.txt
