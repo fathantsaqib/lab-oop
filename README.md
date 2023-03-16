@@ -11,7 +11,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   ```
 - Pindah ke repositori hasil clone dengan perintah berikut
   ```
-  cd lab-oop
+  cd lab-oop/src/
   ```
 - Buat branch baru berdasarkan NIM kalian serta gunakan branch tersebut untuk menyimpan kode dari soal yang dikerjakan
   ```
@@ -21,7 +21,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   ```
   mkdir <NIM>
   ```
-- Di dalam folder NIM kalian buat folder dengan nama "Pertemuan-<_no_pertemuan_>" tanpa tanda kutip. contoh: Pertemuan-1
+- Di dalam folder NIM kalian buat folder dengan nama "Pertemuan_<_no_pertemuan_>" tanpa tanda kutip. contoh: Pertemuan_01
 - Di dalam folder pertemuan tersebut, kalian menambahkan file tugas praktikum yang telah kalian kerjakan dengan format nama file "assignment_<_no pertemuan_>_<_no_soal_>.java" tanpa tanda kutip
 - Setelah semua file tugas telah diselesaikan dan telah diasistensikan lakukan perintah berikut
   ```
@@ -31,5 +31,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   ```
   Note:
   Pesan commit yang dibuat diharapkan sesuai dengan hal yang dilakukan. Seperti "menambah tugas praktikum ..." atau "memperbaiki type di file ..."
+- Setiap file wajib menggunakan package, denga format misal nim anda H071191049 dan Tugasnya merupakan tugas Pertemuan_02, maka packagenya
+  ```package H071191049.Pertemuan02```
 - Setelah perintah tersebut berhasil, silahkan membuka repository hasil fork kalian di github dan lakukan pull request ke repository ini. 
 - Apabila terdapat kesulitan, silahkan menghubungi asistennya
