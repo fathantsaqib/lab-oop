@@ -1,3 +1,5 @@
+package H071221077.Pertemuan_2;
+
 class Produk{
     String id;  //ini atribut 
     String nama;

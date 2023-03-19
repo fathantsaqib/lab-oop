@@ -1,3 +1,5 @@
+package H071221077.Pertemuan_2;
+
 class Cuboid {
     double height;
     double width;

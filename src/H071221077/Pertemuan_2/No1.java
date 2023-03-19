@@ -1,3 +1,5 @@
+package H071221077.Pertemuan_2;
+
 class Food {        //nama kelas
     String namaMakanan;     //atribut
     String jenis;

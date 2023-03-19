@@ -1,3 +1,5 @@
+package H071221077.Pertemuan_2;
+
 class Person {
     String name;
     int age;
