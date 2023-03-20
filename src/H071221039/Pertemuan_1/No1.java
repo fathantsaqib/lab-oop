@@ -1,3 +1,5 @@
+package H071221039.Pertemuan_1;
+
 import java.util.Scanner; // import library untuk menginput
 
 public class No1 { // bagian kelas, dimana nama kelas disesuaikan dengan nama file
