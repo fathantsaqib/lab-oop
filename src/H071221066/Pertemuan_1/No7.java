@@ -1,4 +1,4 @@
-package TugasPraktikum.Pertemuan1;
+package H071221066.Pertemuan_1;
 
 //import scanner
 import java.util.Scanner;                                                   
