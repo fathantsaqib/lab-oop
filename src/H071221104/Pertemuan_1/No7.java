@@ -1,3 +1,5 @@
+package H071221104.Pertemuan_1;
+
 import java.util.Scanner;
 public class No7 {
     static String[] buah = {"Anggur", "Apel", "Belimbing", "Durian", "Rambutan", "Pisang", "Jeruk", "Semangka", "Nanas",
